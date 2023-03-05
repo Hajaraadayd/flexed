@@ -1,0 +1,14 @@
+<html><head><title>formation</title>
+    <script language="javascript" function verif() 
+       { if(document.f.nom.value=="")
+        { alert("veuillez taper votre om et prénom!");
+        return false;}; if(document.f.cin.value=="") 
+        { alert("veuillez taper votre CIN!"); return false; };
+        var v =1; 
+        var taille =document.f.cin.value.length;
+         for(i=0;i<taille;++i)
+        {if(document.f.cin.value.charat(i)> "9" taille!=8) v=-1;}if(v==-1)
+        {alert("le numéro")}
+
+    }
+</head>
